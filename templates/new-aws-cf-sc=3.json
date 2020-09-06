@@ -1,0 +1,34 @@
+"AWSTemplateFormatVersion": "2010-09-09",
+"Parameters":{
+},
+"Mapping": {
+},
+"Resources":{{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+    },
+    "Resources": {
+        "EC2Instance": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "f80d57a0-4b83-48eb-9618-87719f4d8c72"
+                }
+            }
+        },
+        "S3Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8c1b066f-5562-49e3-abf7-140cd5ac97fc"
+                }
+            }
+        }
+    }
+}
+},
+"Output": {
+}
+}
